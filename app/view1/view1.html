@@ -1,0 +1,21 @@
+<div class="content">
+	<canvas id="chart" class="chart chart-line" chart-data="data"
+		chart-labels="labels" chart-legend="true" chart-series="series"
+		chart-click="onClick" >
+	</canvas>
+</div>
+<div class="content_highcharts">
+	<div id="container" style="width:100%; height:400px;"></div>
+</div>
+<div class="content_highcharts_ng">
+	<div class="span12">
+		<input ng-model="chartConfig.title.text">
+		<button ng-click="addSeries()">Add Series</button>
+		<button ng-click="addPoints()">Add Points to Random Series</button>
+		<button ng-click="removeRandomSeries()">Remove Random Series</button>
+		<button ng-click="toggleLoading()">Loading?</button>
+	</div>
+	<div class="row">
+		<highchart id="chart1" config="chartConfig"></highchart>
+	</div>
+</div>

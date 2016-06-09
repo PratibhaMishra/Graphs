@@ -1,0 +1,20 @@
+{
+  "name": "angular-seed",
+  "description": "A starter project for AngularJS",
+  "version": "0.0.0",
+  "homepage": "https://github.com/angular/angular-seed",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "angular-route": "~1.4.0",
+    "angular-loader": "~1.4.0",
+    "angular-mocks": "~1.4.0",
+    "html5-boilerplate": "~5.2.0",
+	"bootstrap":"~3.3.6",
+	"jquery":"~2.1.4",
+	"angular-chart":"~0.5.0",
+	"highcharts":"~4.2.5",
+	"highcharts-ng":"~0.0.11"
+  }
+}
